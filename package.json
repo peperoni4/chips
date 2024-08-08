@@ -1,0 +1,22 @@
+{
+  "name": "chips",
+  "version": "1.0.0",
+  "description": "simple chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peperoni4/chips.git"
+  },
+  "keywords": [
+    "chat-app"
+  ],
+  "author": "peperoni4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peperoni4/chips/issues"
+  },
+  "homepage": "https://github.com/peperoni4/chips#readme"
+}
