@@ -1,23 +1,27 @@
 {
-  "name": "chips",
-  "version": "1.0.0",
-  "description": "simple chat app",
-  "type": "module",
-  "engines": {
-    "node": "20.12.x",
-    "npm": "10.5.x"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peperoni4/chips.git"
-  },
-  "keywords": [
-    "chat-app"
-  ],
-  "author": "peperoni4",
-  "license": "ISC"
+    "name": "chips",
+    "version": "1.0.0",
+    "description": "simple chat app",
+    "type": "module",
+    "engines": {
+        "node": "20.12.x",
+        "npm": "10.5.x"
+    },
+    "main": "index.js",
+    "scripts": {
+        "prettier:check": "prettier \"**/*.{js,ts,tsx,json,md,css,html}\"",
+        "prettier:format": "npm run prettier:check -- --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/peperoni4/chips.git"
+    },
+    "keywords": [
+        "chat-app"
+    ],
+    "author": "peperoni4",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "3.3.3"
+    }
 }
