@@ -2,6 +2,11 @@
   "name": "chips",
   "version": "1.0.0",
   "description": "simple chat app",
+  "type": "module",
+  "engines": {
+    "node": "20.12.x",
+    "npm": "10.5.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
