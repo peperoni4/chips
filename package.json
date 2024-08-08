@@ -14,9 +14,5 @@
     "chat-app"
   ],
   "author": "peperoni4",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/peperoni4/chips/issues"
-  },
-  "homepage": "https://github.com/peperoni4/chips#readme"
+  "license": "ISC"
 }
