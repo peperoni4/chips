@@ -22,6 +22,7 @@
     "author": "peperoni4",
     "license": "ISC",
     "devDependencies": {
-        "prettier": "3.3.3"
+        "prettier": "3.3.3",
+        "typescript": "^5.5.4"
     }
 }
