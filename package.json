@@ -7,8 +7,13 @@
         "node": "20.12.x",
         "npm": "10.5.x"
     },
-    "main": "index.js",
+    "workspaces": [
+        "apps/*"
+    ],
     "scripts": {
+        "build:client": "npm run build -w apps/client",
+        "build:server": "npm run build -w apps/server",
+        "lint:type": "npx tsc --noEmit",
         "prettier:check": "prettier \"**/*.{js,ts,tsx,json,md,css,html}\"",
         "prettier:format": "npm run prettier:check -- --write"
     },
