@@ -3,6 +3,8 @@
   "include": ["**/*.ts", "**/*.js", "**/*.tsx"],
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "react-jsx",
     "baseUrl": ".",
