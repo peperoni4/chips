@@ -8,7 +8,18 @@ type Props = {
 };
 
 function MessageList({ messages }: Props) {
-    const currentUserId = messages[0]!.from;
+    const currentUserId = messages[0]?.from ?? 0;
+
+    if (messages.length === 0) {
+        return (
+            <div style={{ textAlign: 'center' }}>
+                Seems like no one have written any message!
+                <br />
+                Be the first one!
+            </div>
+        );
+    }
+
     return (
         <div className={styles['message-list']}>
             {messages.map(message => (
