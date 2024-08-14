@@ -1,0 +1,28 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+    padding: 20px;
+    overflow-wrap: break-word;
+
+    border-radius: 20px;
+}
+
+.message_current-user {
+    background-color: hsl(128, 71%, 82%);
+    align-self: flex-end;
+}
+
+.message_other-user {
+    background-color: hsl(206, 100%, 82%);
+    align-self: flex-start;
+}
+
+.message__content {
+    font-size: 18px;
+}
+
+.message__info {
+    margin: 0 0 0 auto;
+    color: hsl(0, 0%, 30%);
+}
